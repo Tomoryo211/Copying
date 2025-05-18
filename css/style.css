@@ -1,0 +1,12 @@
+body{
+    
+    padding: 0 0 0 4%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    .hd-btn{
+        display: flex;
+        padding: 0 0 0 4%;
+    }
+}

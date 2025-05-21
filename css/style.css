@@ -68,6 +68,9 @@ li {
     height: 420px;
     object-fit: cover;
 }
+#About{
+    width: 60%;
+}
 
 #About ul{
     margin-bottom: 40px;
@@ -76,7 +79,7 @@ li {
     margin-bottom: 40px;
 }
 #About p{
-    text-align: justify;
+    margin-left: 35px;
 }
 
 #Works ul{
@@ -88,4 +91,59 @@ li {
 #Works li{
     width: 30%;
     margin-bottom: 20px;
+}
+
+#News dl{
+    border-bottom: 1px solid #c8c8c8;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1pz solid #c8c8c8;
+}
+
+#Contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#Contact dt {
+    width: 15%;
+}
+#Contact dd {
+    width: 80%;
+    margin-bottom: 10px;
+}
+#Contact dd input,
+#Contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+#Contact dd textarea {
+    height: 10rem;
+}
+#Contact .button {
+    text-align: center;
+}
+#Contact .button input {
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+}
+#Contact .button input:hover {
+    background: #fff;
+    color: #24292e;
+}
+#footer {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-align: center;
 }
